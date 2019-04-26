@@ -19,3 +19,5 @@ Gra.resetDraw()
 //图片保存，返回图片地址
 Gra.saveImg()
 ```
+### 截图
+![Image text]('https://raw.githubusercontent.com/twosugar/imgStore/master/text/%E6%B6%82%E9%B8%A6.png)
