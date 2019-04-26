@@ -1,3 +1,4 @@
+
 ### 使用场景
 用于图片标记，涂鸦。
 ### Demo
@@ -7,7 +8,12 @@
 <script src="./Graffiti.js"></script>
 ```
 #### npm引入
-待更新
+[![](https://img.shields.io/npm/v/@sugarfish/gra.svg)](https://www.npmjs.com/package/@sugarfish/gra)
+```
+npm i @sugarfish/gra --save
+
+import Gra from '@sugarfish/gra'
+```
 ### 使用
 ```
 //用canvas描绘图片，canvasId：'canvas标签id'，imgUrl：'图片地址'，color：'笔触颜色'
