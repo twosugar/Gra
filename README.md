@@ -1,0 +1,22 @@
+### 使用场景
+用于图片标记，涂鸦。
+### Demo
+['我是demo']('./src/demo.html')
+### 引入方法
+#### script标签引入
+```
+<script src="./Graffiti.js"></script>
+```
+#### npm引入
+待更新
+### 使用
+```
+//用canvas描绘图片，canvasId：'canvas标签id'，imgUrl：'图片地址'，color：'笔触颜色'
+Gra.createCanvas(canvasId, imgUrl, color)
+
+//图片重绘
+Gra.resetDraw()
+
+//图片保存，返回图片地址
+Gra.saveImg()
+```
