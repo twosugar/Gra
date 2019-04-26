@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  
+  <canvas id="canvas"></canvas>
+  <button onclick="resetDraw()">重置</button>
+  <button onclick="saveImg()">保存</button>
+  <div id="hhh"></div>
+</body>
+<script src="./Graffiti.js"></script>
+<script>
+
+  Gra.createCanvas('canvas', 'https://avatars2.githubusercontent.com/u/42201025?s=460&v=4', 'red')
+
+  function resetDraw() {
+    Gra.resetDraw()
+  }
+
+  function saveImg() {
+   const imgurl = Gra.saveImg()
+   document.getElementById('hhh').innerHTML = `<img src=${imgurl}>`;
+  }
+
+</script>
+</html>

@@ -1,0 +1,8 @@
+{
+  "name": "@sugarfish/gra",
+  "version": "0.0.1",
+  "description": "Graffiti Based on Canvas",
+  "main": "./src/Graffiti.js",
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}
