@@ -20,4 +20,4 @@ Gra.resetDraw()
 Gra.saveImg()
 ```
 ### 截图
-![Image text]('https://raw.githubusercontent.com/twosugar/imgStore/master/text/%E6%B6%82%E9%B8%A6.png')
+![Image text]("https://raw.githubusercontent.com/twosugar/imgStore/master/text/%E6%B6%82%E9%B8%A6.png")
